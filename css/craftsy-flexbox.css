@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+body{
+    background: url('../img/bg-2.png');
+    font-size: 16px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header img.logo{
+     position: absolute;
+     top: -35px;
+     left: -10px;
+}
+
+nav.navegacion{
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav.navegacion ul{
+    list-style-type: none;
+}
+
+nav.navegacion ul{
+    width: 100%;
+    background-color: orange;
+    padding: 5px 0 5px 110px;
+}
+
+nav.navegacion li{
+}
+nav.navegacion a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+nav.navegacion a:hover{
+    border-bottom: 1px solid white;
+}
+
+.fondo1{
+    max-width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: red;
+    background-image: url('../img/office-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    background: white;
+    max-width: 1200px;
+    margin: 120px auto 0;
+    height: 2000px;
+}
+
+.celphones{
+    padding: 10px;
+}
+
+.unit{
+    position: relative;
+}
+
+.cel-img{
+    width: 100%;
+}
+.cel-flag{
+    position:absolute;
+    top:0;
+    right: 10px;
+}
+.cel-name{
+    background-color: rgba(22,33,44,0.5);
+    font-style: italic;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.cel-more{
+    position: absolute;
+    bottom: 10px;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgba(255, 10, 10, 1);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#cajaA, #cajaB, #cajaC{
+    height: 300px;
+    float: left;
+    color: white;
+}
+#cajaA{
+    width: 25%;
+    background-color: green;
+}
+#cajaB{
+    width: 58.33%;
+    background-color: blue;
+}
+#cajaC{
+    width: 16.66%;
+    background-color: yellow;
+}
+.menu-hamb, .menu-hamb-check{
+
+}
+
+/*media para tablets MF */
+@media(min-width:460px){
+    .celphones{
+        padding: 20px 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .unit{
+        width: 49%;
+    }
+
+    .menu-list{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+/*media para notebooks */
+@media(min-width:780px){
+    .unit{
+        width: 33%;
+    }
+
+
+
+
+
+
+
+
+
+}
